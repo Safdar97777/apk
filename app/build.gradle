@@ -9,7 +9,7 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 30
-        
+        ...
         signingConfigs {
 
    release {
@@ -22,6 +22,7 @@ android {
        v1SigningEnabled true
        v2SigningEnabled true
    }
+   ....
 }
 
 buildTypes {
