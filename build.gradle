@@ -1,4 +1,20 @@
 buildscript {
+
+    repositories {
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.2.2'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        google()
+    }
+}
 android {
     
     signingConfigs {
@@ -15,19 +31,3 @@ android {
         }
     }
 }
-    repositories {
-        jcenter()
-        google()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:4.2.2'
-    }
-}
-
-allprojects {
-    repositories {
-        jcenter()
-        google()
-    }
-}
-
