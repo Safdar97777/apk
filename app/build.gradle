@@ -22,7 +22,7 @@ android {
   signingConfigs {
 
    release {
-       storeFile file(/var/lib/jenkins/workspace/apk_build/app)
+       storeFile file(/app)
        storePassword *****
        keyAlias *****
        keyPassword *****
