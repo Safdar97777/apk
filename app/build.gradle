@@ -10,19 +10,54 @@ android {
         minSdkVersion 21
         targetSdkVersion 30
         
-        
-}
+       }
+   
+   
+  
+  
+  
+  
+  
+  
+  signingConfigs {
+
+   release {
+       storeFile file(/var/lib/jenkins/workspace/apk_build/app)
+       storePassword *****
+       keyAlias *****
+       keyPassword *****
+
+       
+       v1SigningEnabled true
+       v2SigningEnabled true
    }
+}
 
 buildTypes {
         release {
             signingConfig signingConfigs.release
         }
 }
- 
- 
-        
    
-
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   }
 dependencies {
 }
