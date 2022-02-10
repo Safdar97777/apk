@@ -10,18 +10,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 30
         
-        signingConfigs {
-
-   release {
-       storeFile file(/app)
-       storePassword *****
-       keyAlias *****
-       keyPassword *****
-
-       // Optional, specify signing versions used
-       v1SigningEnabled true
-       v2SigningEnabled true
-   }
+        
 }
    }
 
