@@ -1,5 +1,4 @@
-final Properties props = new Properties()
-props.load(new FileInputStream('build.properties'))
+
 plugins {
     id 'com.android.application'
 }
